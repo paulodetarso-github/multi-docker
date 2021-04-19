@@ -19,6 +19,6 @@ after_success:
 
   #push images to docker hub
   - docker push paulodetarso/multi-client
-  - docker push paulodetarso/nginx
-  - docker push paulodetarso/server
-  - docker push paulodetarso/worker
+  - docker push paulodetarso/multi-nginx
+  - docker push paulodetarso/multi-server
+  - docker push paulodetarso/multi-worker
